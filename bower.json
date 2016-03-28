@@ -1,0 +1,23 @@
+{
+  "name": "shareSocial",
+  "description": "provides information sharing on social platforms",
+  "main": "src/socialsharePlugin.js",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "monika aggarwal"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
