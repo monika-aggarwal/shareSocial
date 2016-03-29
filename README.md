@@ -22,7 +22,7 @@ Let's take a quick look at the alternative, using this little plugin:
 2. Make a `share-button` element and a ‘button’ element on your page
 3. In your javascript, call `$(‘sharebutton’).createshare()’.
 4. Pass options to the share call if you want (details below).
-5. Add your facebook AppId number in fbAsynchInit() in socialsharePlugin.js. 
+5. Add your facebook AppId number in fbAsynchInit() in socialsharePlugin.js & its minified file. 
 
 ```html
 <div class="share-bundle">
