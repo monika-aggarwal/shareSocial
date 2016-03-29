@@ -2,7 +2,7 @@
   "name": "shareSocial",
   "version": "0.0.1"
   "description": "provides information sharing on social platforms",
-  "main": "src/socialsharePlugin.js",
+  "main": "dist/src/socialsharePlugin.js",
   "moduleType": [
     "globals"
   ],
