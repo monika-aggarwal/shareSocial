@@ -18,7 +18,7 @@ Let's take a quick look at the alternative, using this little plugin:
 4. It's tiny and compact, expanding only when the user actually wants to share something.
 
 # Getting Started
-1. [Download the latest script &  & images] and include it on your page.
+1. Download the latest script and images and include it on your page.
 2. Make a `share-button` element and a ‘button’ element on your page
 3. In your javascript, call `$(‘sharebutton’).createshare()’.
 4. Pass options to the share call if you want (details below).
@@ -46,20 +46,20 @@ The share button is extremely flexible. As such we provide the ability to pass a
 ```js
 var option = {
         facebook:{
-            name: '' , //The name of the article that you want to share.
-            link: ‘’ , //the url you'd like to share to Facebook
-            picture: '' , //image to be shared to Facebook 
-            caption: ‘’ , //caption to be shared alongside your link to Facebook 
-            description: '' , //text to be shared alongside your link to Facebook
+            name: '' , //The name of the article that you want on share.
+            link: ‘’ , //the url you'd like to share on Facebook
+            picture: '' , //image to be shared on Facebook 
+            caption: ‘’ , //caption to be shared alongside your link on Facebook 
+            description: '' , //text to be shared alongside your link on Facebook
             message: '' , //message to appear when an item is shared
             enabled: //Is true by default
         },
         googleplus:{
-            url:  ‘’ , //the url you'd like to share to googleplus
+            url:  ‘’ , //the url you'd like to share on googleplus
             enabled: //Is true by default
         },
         twitter:{
-            url:  ‘’ , //the url you'd like to share to twitter
+            url:  ‘’ , //the url you'd like to share on twitter
     	    description: '' , //the text to be shared on twitter
             enabled: //Is true by default
         },  
@@ -80,5 +80,5 @@ var option = {
 
     };
 ```
-Styles
+##Styles
 Additionally, you're able to customize the look and feel of the button and animations though CSS. 
