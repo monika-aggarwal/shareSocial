@@ -1,6 +1,5 @@
 {
   "name": "shareSocial",
-  "version": "0.0.2",
   "description": "provides information sharing on social platforms",
   "main": "src/socialsharePlugin.js",
   "moduleType": [
